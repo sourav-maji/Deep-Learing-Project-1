@@ -2,8 +2,41 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sourav-maji/Deep-Learing-Project-1/blob/main/Untitled1.ipynb)
 
+## Description
+
+This project demonstrates the fundamental concepts of deep learning by implementing a minimal neural network architecture for sentiment analysis. Using the famous IMDB movie reviews dataset, we explore how a single hidden layer neural network performs on binary classification tasks and analyze the trade-offs between model simplicity and performance.
+
+The implementation showcases important machine learning concepts including data preprocessing, model training, validation, and the critical issue of overfitting. Through comprehensive visualization of training metrics, this project provides valuable insights into neural network behavior and serves as an educational foundation for understanding deep learning principles.
+
+**Why This Project Matters:**
+- 🧠 **Educational Value**: Perfect introduction to neural networks and deep learning concepts
+- 📊 **Real-World Application**: Sentiment analysis is widely used in business intelligence and social media monitoring
+- 🔍 **Overfitting Analysis**: Clear demonstration of overfitting patterns and validation techniques
+- 🚀 **Foundation Building**: Establishes groundwork for more complex architectures
+
 ## Overview
-This repository contains a deep learning implementation that explores the impact of using a single hidden layer neural network for binary sentiment classification on the IMDB movie reviews dataset. The project demonstrates fundamental concepts in neural network architecture and evaluates how a minimal network structure affects validation and test accuracy.
+
+This repository contains a comprehensive implementation of a single hidden layer neural network designed to tackle binary sentiment classification. The project systematically explores how minimal network architecture affects model performance, making it an ideal learning resource for understanding the fundamentals of deep learning.
+
+## What You'll Learn
+
+Through this project, you'll gain hands-on experience with:
+
+- **Neural Network Fundamentals**: Understanding basic architecture components and their roles
+- **Text Processing for ML**: Converting raw text data into numerical representations
+- **Binary Classification**: Implementing and evaluating classification models
+- **Overfitting Recognition**: Identifying and understanding overfitting through validation curves
+- **Model Evaluation**: Using proper metrics and validation techniques
+- **Data Visualization**: Creating meaningful plots to interpret model performance
+
+## Project Workflow
+
+1. **Data Loading**: Import and explore the IMDB dataset
+2. **Preprocessing**: Convert text reviews into numerical vectors
+3. **Model Architecture**: Build a simple 3-layer neural network
+4. **Training**: Train with validation monitoring
+5. **Evaluation**: Assess performance and analyze results
+6. **Visualization**: Plot training curves to understand model behavior
 
 ## Project Description
 The project implements a simple feedforward neural network with just one hidden layer to classify movie reviews as positive or negative sentiment. This minimal architecture serves as a baseline to understand the relationship between network complexity and performance.
